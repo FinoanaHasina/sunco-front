@@ -128,7 +128,7 @@ const HomePage = () => {
 
           <div className="relative">
             <img
-              src="http://localhost:3001/images/products/nike-vert.png"
+              src="https://sunco-back.onrender.com/images/products/nike-vert.png"
               alt="Summer Sale Shoe"
               className="w-full max-w-md mx-auto"
             />
