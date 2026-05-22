@@ -45,7 +45,7 @@ const HomePage = () => {
           <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-gray-900 mx-auto mb-4"></div>
           <p className="text-gray-600">Loading products...</p>
           <p className="text-sm text-gray-400 mt-2">
-            Connecting to API: {"http://localhost:3001/api"}
+            Connecting to API
           </p>
         </div>
       </div>
@@ -65,7 +65,7 @@ const HomePage = () => {
             <ul className="text-sm text-gray-600 space-y-1">
               <li>• Make sure the backend server is running on port 3001</li>
               <li>• Check if PostgreSQL database is connected</li>
-              <li>• Verify API URL: {"http://localhost:3001/api"}</li>
+              <li>• Verify API URL</li>
               <li>
                 • Run: <code className="bg-gray-200 px-1 rounded">cd backend && npm run dev</code>
               </li>
@@ -78,7 +78,6 @@ const HomePage = () => {
             </Button>
             <Button
               variant="outline"
-              onClick={() => window.open("http://localhost:3001/health", "_blank")}
               className="w-full"
             >
               Check Backend Health
